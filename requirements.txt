@@ -1,0 +1,39 @@
+# ================================================
+# Tiny-VIN: FOMO-like YOLOv8 for Microcontrollers
+# Python Dependencies
+# ================================================
+
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer Vision
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Data Processing & Numerical Computing
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# Dataset Management
+roboflow>=1.1.0
+kaggle>=1.5.0
+
+# Data Augmentation (Optional but recommended)
+albumentations>=1.3.0
+
+# Model Export & Conversion
+# PyTorch → ONNX → TensorFlow → TFLite pipeline
+onnx>=1.14.0
+onnx2tf  # For ONNX to TensorFlow conversion (modern replacement for onnx-tf)
+tensorflow  # For TFLite conversion, version auto-selected for Python compatibility
+
+# Training Monitoring (Optional)
+# tensorboard>=2.13.0  # Uncomment if you want TensorBoard logging
+
+# Utility
+requests>=2.31.0
