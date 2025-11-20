@@ -24,7 +24,7 @@ roboflow>=1.1.0
 kaggle>=1.5.0
 
 # Data Augmentation (Optional but recommended)
-albumentations>=1.3.0
+albumentationsx>=0.0.1
 
 # Model Export & Conversion
 # PyTorch → ONNX → TensorFlow → TFLite pipeline
