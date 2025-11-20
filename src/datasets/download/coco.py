@@ -167,7 +167,7 @@ def convert_coco_json_to_yolo(json_file, output_dir, image_dir):
                 width = max(0, min(1, width))
                 height = max(0, min(1, height))
                 
-                f.write(f"{cls_idx} {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}\\n")
+                f.write(f"{cls_idx} {x_center:.6f} {y_center:.6f} {width:.6f} {height:.6f}\n")
 
 
 def download_coco_full(data_dir="data"):
